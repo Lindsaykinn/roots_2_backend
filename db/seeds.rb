@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+fam_1 = Family.create(surname: "Lauren", image: '', story: "We like bingo", country_of_origin: "Merica")
+
+Person.create([
+    {name: "Sue", dob: DateTime.new(1990,12,12,0), family: fam_1}
+])
